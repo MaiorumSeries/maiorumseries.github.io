@@ -1,0 +1,8 @@
+https://maiorumseries.github.io/docs/book.html
+https://maiorumseries.github.io/docs/contents.html
+https://maiorumseries.github.io/docs/theme.html
+https://maiorumseries.github.io/docs/motivation.html
+https://maiorumseries.github.io/docs/getting-started.html
+https://maiorumseries.github.io/docs/references.html
+https://maiorumseries.github.io/docs/outline
+https://maiorumseries.github.io/docs/privacy
