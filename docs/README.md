@@ -1,14 +1,13 @@
 ---
 layout: home
-title: Maiorum Series
+title: About Maiorum Series
 permalink: /
 ---
 
-This is a [Jekyll](https://jekyllrb.com/) theme based on [GitBook](https://www.gitbook.com/) that adds support for easily organizing pages into book chapters and parts.
-It doesn't rely on any plugins,
-so it works natively with [GitHub Pages](https://pages.github.com/).
+Welcome to the documentation web site for the genealogy tool called Maiorum Series. This tool allows you to visualize your family tree with ease and accuracy in a book. 
+Maiorum Series is designed to help you exchange and share your heritage in a meaningful way.
 
-[Original Link](https://jasongrimes.github.io/jekyll-chapterbook/)
+<!-- [Original Link](https://jasongrimes.github.io/jekyll-chapterbook/) -->
 
 ## License
 
