@@ -709,7 +709,7 @@
         <div class="book-header" role="navigation">
           
             <a
-              href="https://github.com/MaiorumSeries/maiorumseries.github.io/edit/gh-pages/_chapters/000-front/030.draft-introduction.md"
+              href="https://github.com/MaiorumSeries/maiorumseries.github.io/edit/main/_chapters/000-front/030.draft-introduction.md"
               target="_blank"
               title="Edit on GitHub"
               class="github-edit-link">
@@ -802,7 +802,46 @@
     
   
 
-  <p>See <a class="chapter-link" href=""></a> for more information.</p>
+  <!--
+
+``` plantuml 
+
+@startuml
+
+cloud  "Ancestry"  #lightblue { 
+  [Ancestry Portal] #lightblue 
+} 
+
+node "Computer" {
+  [RootMagic] #lightyellow
+  [g2book] #lightyellow
+ folder "GEDCOM" #lightgreen {
+ }
+ folder "TEX File" #lightgreen {
+ }
+ [pdflatex] #lightyellow
+ folder "PDF File" #lightgreen {
+ }  
+}
+
+[Ancestry Portal] -down-> [RootMagic] : Synchronize Data
+[RootMagic] -right-> [GEDCOM] : Export GEDCOM File
+[GEDCOM] -down-> [g2book] : Convert GEDCOM Files 
+[g2book] -right-> [TEX File] : Export Latex File
+[TEX File] -down-> [pdflatex] : Typeset the Latex input
+[pdflatex] -right-> [PDF File] : Generate Book as PDF
+@enduml
+```
+-->
+
+<figure class="figure color-callout-light with-border row">
+  <a href="/assets/images/Workflow.png" target="_blank" title="General workflow. (Click to open figure in a new window.)">
+    <img src="/assets/images/Workflow.png" alt="General workflow." border="0" />
+  </a>
+  <figcaption class="color-callout-dark">General workflow.</figcaption>
+</figure>
+
+<p>See <a class="chapter-link" href=""></a> for more information.</p>
 
 <!-- ---
 ```
@@ -1040,12 +1079,12 @@ This file is located at: _chapters/000-front/030.draft-introduction.md
   },
   "file": {
     "path": "_chapters/000-front/030.draft-introduction.md",
-    "mtime": "2023-03-27 22:26:39 +0200",
+    "mtime": "2023-03-28 21:15:17 +0200",
     "type": "markdown"
   },
   "gitbook": {
     "version": "",
-    "time": "2023-03-27 22:26:39 +0200"
+    "time": "2023-03-28 21:15:17 +0200"
   },
   "basePath": "",
   "book": {
