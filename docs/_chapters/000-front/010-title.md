@@ -3,6 +3,7 @@ slug: book
 title: Maiorum Series
 abstract: Maiorum Series, the genealogy workflow and  tools to generate a book.
 ---
+Test
 
 By Cord Burmeister
 
