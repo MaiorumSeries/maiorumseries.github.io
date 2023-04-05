@@ -27,5 +27,3 @@ Genealogy data is a valuable source of information for family history research. 
 - LaTeX can be customized and extended with various packages and styles to suit different needs and preferences.
 
 Therefore, converting genealogy data to a book with LaTeX can be a useful and rewarding way to preserve and share family history in a readable and elegant format.
-
-[(LaTeX Tool)](references.html#MiKTeX).
