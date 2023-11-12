@@ -1,10 +1,3 @@
-.vs/ProjectSettings.json
-.vs/slnx.sqlite
-.vs/VSWorkspaceState.json
-.vs/maiorumseries.github.io/FileContentIndex/0fa6abd3-6fc6-45e6-b5e9-802f7ef5835e.vsidx
-.vs/maiorumseries.github.io/FileContentIndex/78d4363b-7352-41d4-9402-6e1f90d9c669.vsidx
-.vs/maiorumseries.github.io/FileContentIndex/15649af3-aeb8-4b0c-918c-f1707daa74b6.vsidx
-.vs/maiorumseries.github.io/FileContentIndex/cce0382a-ac38-4421-b8f2-ebab22253dd4.vsidx
-.vs/maiorumseries.github.io/FileContentIndex/read.lock
-.vs/maiorumseries.github.io/v17/.wsuo
+.vs/
+.vscode/
 docs/_site/

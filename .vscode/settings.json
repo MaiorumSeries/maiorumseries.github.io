@@ -4,6 +4,7 @@
         "GEDCOM",
         "Maiorum",
         "maiorumseries",
-        "miktex"
+        "miktex",
+        "pdflatex"
     ]
 }

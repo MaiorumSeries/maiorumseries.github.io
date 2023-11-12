@@ -23,23 +23,13 @@ In general there are several possibilities to install the required software pack
 
 I describe the installation here with *chocolatey*. To use this software you must install it as described on [(Chocolatey)](references.html#Chocolatey).
 
-Then we need to install the requirements, the .NET Runtime.
-
-> *Note:* This step will be included in the future in the MaiorumSeries chocolatey package.
-
-``` cmd
-choco install dotnet-6.0-runtime -y
-```
-
-> *Note:* The MaiorumSeries chocolatey package is still in review.
-
-Then install the MaiorumSeries chocolatey package.
+Install the MaiorumSeries chocolatey package.
 
 ``` cmd
 choco install maiorumseries -y
 ```
 
-The installation of the LaTeX distribution is required to compile the documents and highly recommended.
+The installation of the LaTeX distribution is required to compile the documents and the MiKTeX distribution is highly recommended.
 
 ``` cmd
 choco install miktex -y
